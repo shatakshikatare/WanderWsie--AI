@@ -1,0 +1,48 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production Build Artifacts
+dist/
+*/dist/
+build/
+*/build/
+out/
+.next/
+
+# TypeScript Build Info
+*.tsbuildinfo
+.tsbuildinfo
+
+# IDE, OS & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Temporary / Scratch files
+scratch/
+test-*.js
+server/test-*.js

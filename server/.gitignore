@@ -1,0 +1,11 @@
+# Environment variables with Gemini API Keys
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+
+# TypeScript compiler output
+dist/
+*.tsbuildinfo

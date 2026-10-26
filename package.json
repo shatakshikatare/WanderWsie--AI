@@ -1,0 +1,14 @@
+{
+  "name": "wanderwise-ai",
+  "version": "1.0.0",
+  "description": "AI-powered Personalized Travel Itinerary Planner for Google Cloud Workshop",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview",
+    "server": "npm --prefix server run dev"
+  },
+  "keywords": ["travel-planner", "google-cloud", "gemini-ai", "react", "typescript"],
+  "author": "",
+  "license": "MIT"
+}
